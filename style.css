@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+div.List{
+    background-color: rgb(73, 69, 69);
+    color: rgb(245, 245, 165);
+    padding: 16px;
+    padding-left: 40px;
+}
+div.form{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input[type=submit]{
+    padding: 9px;
+    background-color: rgb(135, 181, 233);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+input[type=text]{
+    padding: 5px;
+}
+ul{
+    list-style: none;
+}
+
+ li > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+} 
+
+li:nth-child(odd){
+    background-color: #84bbf1;
+    padding: 17px;
+    opacity: 0.8;
+    border-bottom: 1px solid gray;
+}
+li:nth-child(even){
+    background-color: rgb(88, 87, 86);
+    padding: 17px;
+    opacity: 0.8;
+    border-bottom: 1px solid rgb(92, 87, 87);
+  
+}
+div.nav1{
+    width: 95vw;
+    margin: 0 auto;
+}
+div.lii{
+    display: flex;
+}
+
+.but1{
+    padding:6px ;
+    background-color: rgba(124, 169, 221, 1);
+    border: none;
+     border-radius: 7px;
+    filter: drop-shadow(0 0 10px #ece086ff);
+    cursor: pointer;
+}
+.m{
+    margin-left: 0px;
+}
+.but2{
+    background-color: rgb(243, 77, 77);
+    border: none;
+    padding: 6px;
+    filter: drop-shadow(0 0 10px #ddd27e);
+    border-radius: 7px;
+    cursor: pointer;
+}
