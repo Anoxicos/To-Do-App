@@ -57,6 +57,7 @@ CREATE TABLE tasks (
     is_done BOOLEAN DEFAULT 0,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+```
 ### 2️⃣ Configure the Database Connection
 $host = "localhost";
 $user = "root";     // your MySQL username
