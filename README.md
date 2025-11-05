@@ -59,11 +59,12 @@ CREATE TABLE tasks (
 );
 ```
 ### 2️⃣ Configure the Database Connection
+```sql
 $host = "localhost";
 $user = "root";     // your MySQL username
 $pass = "";         // your MySQL password
 $dbname = "todolist_db";
-
+```
 
 ### 3️⃣ Run the App
 Place the project folder inside your local server (e.g. htdocs if using XAMPP).
